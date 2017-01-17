@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Autoform UFS",
-  version: '0.0.2',
-  name: "buishi:autoform-ufs",
-  git: 'https://github.com/DesignmanIO/meteor-autoform-ufs',
+  version: '1.0.0',
+  name: "rassweiler:autoform-ufs",
+  git: 'https://github.com/rassweiler/meteor-autoform-ufs',
   documentation: 'README.md'
 });
 
@@ -12,7 +12,7 @@ Package.onUse(function (api) {
 
   api.use([
       'aldeed:autoform@5.8.1',
-      'jalik:ufs@0.6.1',
+      'jalik:ufs@0.7.1',
       'underscore@1.0.9'
   ],
       ['client', 'server']
