@@ -1,6 +1,6 @@
 Package.describe({
-  name: 'buishi:autoform-ufs',
-  version: '0.0.1',
+  name: 'rassweiler:autoform-ufs',
+  version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: '',
   // URL to the Git repository containing the source code for this package.
@@ -19,6 +19,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('buishi:autoform-ufs');
+  api.use('rassweiler:autoform-ufs');
   api.mainModule('autoform-ufs-tests.js');
 });

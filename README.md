@@ -1,9 +1,16 @@
-Autoform for UFS
+# Meteor Autoform-UFS
+a ufs addon package for autoform and simple schema
 
-Install like so: `meteor add buishi:autoform-ufs`
+## Contents
+- [Installation](#installation)
+- [Usage](#usage)
 
-Use like so:
+## Installation
+```bash
+meteor add rassweiler:autoform-ufs
+```
 
+## Usage
 ````javascript
 Schemas.Collection = new SimpleSchema({
   images: {

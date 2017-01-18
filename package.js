@@ -13,7 +13,10 @@ Package.onUse(function (api) {
   api.use([
       'aldeed:autoform@5.8.1',
       'jalik:ufs@0.7.1',
-      'underscore@1.0.9'
+      'underscore@1.0.9',
+      'accounts-base@1.2.14',
+      'session@1.0.5',
+      'reactive-var@1.0.11'
   ],
       ['client', 'server']
   );
