@@ -11,6 +11,9 @@ meteor add rassweiler:autoform-ufs
 ```
 
 ## Usage
+- File collection is seperate from collection with autoform.
+- Made the form item name dynamic instead of hard coded as 'images' for the collection that has autoform.
+
 ````javascript
 Schemas.Collection = new SimpleSchema({
   images: {
@@ -26,3 +29,8 @@ Schemas.Collection = new SimpleSchema({
     }
 });
 ````
+
+## Todo
+- Troubleshoot why original was not working. Seems to just be outdated. failing at getCollection, added new function to use store name instead.
+- ~~Replace sessions with reactive vars~~.
+- Replace hard coded collection item names with logic
