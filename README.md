@@ -39,4 +39,5 @@ Schemas.Collection = new SimpleSchema({
 - ~~Replace hard coded collection item names with logic.~~
 - ~~Complete the incomplete delete method~~
 - Complete the import methods.
-- Complete the select from uploaded method.
+- ~~Complete the select from uploaded method~~.
+- Add option to change file privacy (maybe).

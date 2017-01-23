@@ -1,96 +1,122 @@
 /* CSS declarations go here */
 
 #ufs_form {
-    color: #555;
-    font-size: 90%;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+	color: #555;
+	font-size: 90%;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 #ufs_form a {
-    color: dodgerblue;
-    text-decoration: none;
-    -webkit-transition: all 200ms;
-    -moz-transition: all 200ms;
-    -ms-transition: all 200ms;
-    -o-transition: all 200ms;
-    transition: all 200ms;
+	color: dodgerblue;
+	text-decoration: none;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms;
 }
 
 #ufs_form a:focus, #ufs_form a:hover {
-    color: deepskyblue;
-    text-decoration: underline;
+	color: deepskyblue;
+	text-decoration: underline;
 }
 
 #ufs_form table {
-    margin: 20px 0;
-    width: 100%;
+	margin: 20px 0;
+	width: 100%;
 }
 
 #ufs_form td {
-    border-bottom: solid 1px #eee;
-    padding: 5px;
-    text-align: left;
+	border-bottom: solid 1px #eee;
+	padding: 5px;
+	text-align: left;
 }
 
 #ufs_form th {
-    border-bottom: solid 2px #ddd;
-    padding: 5px;
-    text-align: left;
+	border-bottom: solid 2px #ddd;
+	padding: 5px;
+	text-align: left;
 }
 
 #ufs_form button {
-    background: #888;
-    border: none;
-    border-radius: 3px;
-    color: #eee;
-    cursor: pointer;
-    padding: 5px;
+	background: #888;
+	border: none;
+	border-radius: 3px;
+	color: #eee;
+	cursor: pointer;
+	padding: 5px;
 }
 
 #ufs_form button:hover {
-    background: #aaa;
-    color: #fff;
+	background: #aaa;
+	color: #fff;
 }
 
 #ufs_form .thumbnail {
-    width: 48px;
-    height: auto;
+	width: 48px;
+	height: auto;
 }
 
 #ufs_form .btn-remove {
-    background-color: #c90000;
-    color: #fff;
+	background-color: #c90000;
+	color: #fff;
 }
 
 #ufs_form .btn-upload {
-    background-color: #009900;
-    color: #fff;
+	background-color: #009900;
+	color: #fff;
 }
 
 #ufs_form #login-bar {
-    background-color: #eee;
-    border-bottom: solid 1px #ddd;
-    padding: 10px 30px;
-    text-align: left;
+	background-color: #eee;
+	border-bottom: solid 1px #ddd;
+	padding: 10px 30px;
+	text-align: left;
 }
 
 #ufs_form .bar {
-    background: #eee;
-    padding: 10px;
+	background: #eee;
+	padding: 10px;
 }
 
 #ufs_form .help {
-    color: #888;
-    padding: 10px;
-    line-height: 1.3em;
+	color: #888;
+	padding: 10px;
+	line-height: 1.3em;
 }
 
 #ufs_form .private-access {
-    color: #c94501;
+	color: #c94501;
 }
 
 #ufs_form .public-access {
-    color: #009900;
+	color: #009900;
+}
+
+#ufs_form .file-list {
+	width:100%;
+}
+
+#ufs_form .file-list .file-container {
+	display: inline-block;
+	height:150px;
+	width:150px;
+	padding:5px;
+}
+
+#ufs_form .file-list .file-container .file{
+	height:100%;
+	width:100%;
+	margin:5px;
+	object-fit: cover;
+	overflow:hidden;
+}
+
+#ufs_form .file-list .file-container .selected{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #55F;
+	border-radius:4px;
 }
