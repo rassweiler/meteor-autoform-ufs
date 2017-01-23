@@ -11,8 +11,10 @@ meteor add rassweiler:autoform-ufs
 ```
 
 ## Usage
-- File collection is seperate from collection with autoform.
-- Made the form item name dynamic instead of hard coded as 'images' for the collection that has autoform.
+Settings:
+````javascript
+UploadFS.config.allowImport = true; //Allow importing files from the web in the autoform.
+````
 
 Collection using autoform:
 ````javascript
@@ -32,7 +34,9 @@ Schemas.Collection = new SimpleSchema({
 ````
 
 ## Todo
-- ~~Troubleshoot why original was not working~~. Seems to just be outdated. failing at getCollection, added new function to use store name instead.
+- ~~Troubleshoot why original was not working~~.
 - ~~Replace sessions with reactive vars~~.
-- Replace hard coded collection item names with logic
-- Complete the incomplete delete method
+- ~~Replace hard coded collection item names with logic.~~
+- ~~Complete the incomplete delete method~~
+- Complete the import methods.
+- Complete the select from uploaded method.

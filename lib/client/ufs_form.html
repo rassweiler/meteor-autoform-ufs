@@ -2,8 +2,11 @@
     <form id="ufs_form">
         <div class="bar">
             <button name="upload" type="button" class="btn-upload">Upload</button>
+            {{#if allowImport}}
             <input type="url" name="url" placeholder="http://">
             <button name="import" type="button" class="btn-upload">Import from URL</button>
+            {{/if}}
+            <button name="select" type="button" class="btn-upload">Select Uploaded File</button>
         </div>
         <table>
             <thead>
@@ -83,7 +86,7 @@
                 {{/unless}}
             {{/if}}
             {{#if canDelete}}
-                <button class="btn-delete" name="delete" type="button">Delete</button>
+                <button class="btn-remove" name="remove" type="button">Remove</button>
             {{/if}}
         </td>
     </tr>
