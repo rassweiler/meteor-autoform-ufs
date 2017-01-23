@@ -1,6 +1,6 @@
 Package.describe({
 	summary: "Autoform UFS",
-	version: '1.0.0',
+	version: '1.1.0',
 	name: "rassweiler:autoform-ufs",
 	git: 'https://github.com/rassweiler/meteor-autoform-ufs',
 	documentation: 'README.md'
